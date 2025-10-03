@@ -141,6 +141,8 @@ PUT → Atualizar mensagens
 
 DELETE → Remover mensagens
 
+![Descrição da Imagem](src/main/resources/images/Captura%20de%20tela%202025-10-02%20211832.png)
+
 📖 Observações
 
 Como os dados estão em memória, ao reiniciar a aplicação todas as mensagens são perdidas.
