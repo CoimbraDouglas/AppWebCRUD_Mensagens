@@ -48,6 +48,8 @@ A API estará disponível em:
 http://localhost:8080/mensagens
 ```
 
+---
+
 📌 Endpoints da API
 ➕ Criar uma nova mensagem
 
@@ -134,6 +136,9 @@ Resposta:
 ```
 "Mensagem removida com sucesso!"
 ```
+
+---
+
 🧪 Testando a API
 
 Você pode utilizar o Postman ou Insomnia para testar os endpoints:
@@ -146,7 +151,13 @@ PUT → Atualizar mensagens
 
 DELETE → Remover mensagens
 
+---
+
+📸 Tela do Postman expondo a inserção de dados:
+
 ![Descrição da Imagem](src/main/resources/images/Captura%20de%20tela%202025-10-02%20211832.png)
+
+---
 
 📖 Observações
 
