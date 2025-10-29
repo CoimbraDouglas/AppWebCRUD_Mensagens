@@ -155,7 +155,7 @@ DELETE → Remover mensagens
 
 📸 Tela do Postman expondo a inserção de dados:
 
-![Descrição da Imagem](src/main/resources/images/Captura%20de%20tela%202025-10-02%20211832.png)
+![Descrição da Imagem](src/main/resources/images/Capturadetela2025-10-02211832.png)
 
 ---
 
