@@ -51,6 +51,7 @@ http://localhost:8080/mensagens
 ---
 
 📌 Endpoints da API
+
 ➕ Criar uma nova mensagem
 
 POST /mensagens
@@ -163,4 +164,4 @@ DELETE → Remover mensagens
 
 Como os dados estão em memória, ao reiniciar a aplicação todas as mensagens são perdidas.
 
-Este projeto tem caráter didático, para aprendizado de arquitetura MVC com Spring Boot e manipulação de APIs REST, e foi desenvolvido por Douglas Coimbra.
+Este projeto tem caráter didático, para aprendizado de arquitetura MVC com Spring Boot e manipulação de APIs REST, e foi desenvolvido por **Douglas Coimbra**.
