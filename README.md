@@ -53,7 +53,7 @@ http://localhost:8080/mensagens
 
 ## 📌 Endpoints da API
 
-# ➕ Criar uma nova mensagem
+### ➕ Criar uma nova mensagem
 
 POST /mensagens
 
@@ -72,7 +72,7 @@ Resposta:
 }
 ```
 
-# 📋 Listar todas as mensagens
+### 📋 Listar todas as mensagens
 
 GET /mensagens
 
@@ -90,7 +90,7 @@ Resposta:
 ]
 ```
 
-# 🔍 Buscar mensagem por ID
+### 🔍 Buscar mensagem por ID
 
 GET /mensagens/{id}
 
@@ -107,7 +107,7 @@ Resposta:
 }
 ```
 
-# ✏️ Atualizar mensagem existente
+### ✏️ Atualizar mensagem existente
 ```
 PUT /mensagens/{id}
 ```
@@ -126,7 +126,7 @@ Resposta:
 }
 ```
 
-# ❌ Remover mensagem
+### ❌ Remover mensagem
 
 DELETE /mensagens/{id}
 
