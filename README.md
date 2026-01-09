@@ -1,8 +1,8 @@
 
 # 📝 CRUD de Mensagens em Memória com Spring Boot
 
-Este projeto é uma aplicação **Spring Boot** que implementa um **CRUD (Create, Read, Update, Delete)** simples para gerenciamento de mensagens, utilizando apenas uma lista em memória como armazenamento.  
-Não há banco de dados, e todas as operações são realizadas via **API REST**.
+Este projeto é uma aplicação `Spring Boot` que implementa um **CRUD (Create, Read, Update, Delete)** simples para gerenciamento de mensagens, utilizando apenas uma lista em memória como armazenamento. Não há banco de dados, e todas as operações são realizadas via **API REST**.
+
 Esse projeto foi desenvolvido como atividade da disciplina Arquitetura de Aplicacoes Web ministrada pelo professor **Leonardo Vieira** do curso Análise e Desenvolvimento de Sistemas por **Douglas Coimbra**.
 
 ---
@@ -51,9 +51,9 @@ http://localhost:8080/mensagens
 
 ---
 
-📌 Endpoints da API
+## 📌 Endpoints da API
 
-➕ Criar uma nova mensagem
+# ➕ Criar uma nova mensagem
 
 POST /mensagens
 
@@ -72,7 +72,7 @@ Resposta:
 }
 ```
 
-📋 Listar todas as mensagens
+# 📋 Listar todas as mensagens
 
 GET /mensagens
 
@@ -90,7 +90,7 @@ Resposta:
 ]
 ```
 
-🔍 Buscar mensagem por ID
+# 🔍 Buscar mensagem por ID
 
 GET /mensagens/{id}
 
@@ -107,7 +107,7 @@ Resposta:
 }
 ```
 
-✏️ Atualizar mensagem existente
+# ✏️ Atualizar mensagem existente
 ```
 PUT /mensagens/{id}
 ```
@@ -126,7 +126,7 @@ Resposta:
 }
 ```
 
-❌ Remover mensagem
+# ❌ Remover mensagem
 
 DELETE /mensagens/{id}
 
@@ -141,7 +141,7 @@ Resposta:
 
 ---
 
-🧪 Testando a API
+## 🧪 Testando a API
 
 Você pode utilizar o Postman ou Insomnia para testar os endpoints:
 
@@ -155,13 +155,15 @@ DELETE → Remover mensagens
 
 ---
 
-📸 Tela do Postman expondo a inserção de dados:
+## 📸 Projeto em Execução 
+
+Tela do Postman expondo a inserção de dados:
 
 ![Descrição da Imagem](src/main/resources/images/Capturadetela2025-10-02211832.png)
 
 ---
 
-📖 Observações
+## 📖 Observações
 
 Como os dados estão em memória, ao reiniciar a aplicação todas as mensagens são perdidas.
 
