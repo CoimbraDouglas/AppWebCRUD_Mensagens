@@ -3,7 +3,7 @@
 
 Este projeto é uma aplicação `Spring Boot` que implementa um **CRUD (Create, Read, Update, Delete)** simples para gerenciamento de mensagens, utilizando apenas uma lista em memória como armazenamento. Não há banco de dados, e todas as operações são realizadas via **API REST**.
 
-Esse projeto foi desenvolvido como atividade da disciplina Arquitetura de Aplicacoes Web ministrada pelo professor **Leonardo Vieira** do curso Análise e Desenvolvimento de Sistemas por **Douglas Coimbra**.
+Esse projeto foi desenvolvido como atividade da disciplina Arquitetura de Aplicações Web ministrada pelo professor **Leonardo Vieira** do curso Análise e Desenvolvimento de Sistemas por **Douglas Coimbra**.
 
 ---
 
