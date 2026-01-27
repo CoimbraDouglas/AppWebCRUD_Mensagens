@@ -143,7 +143,7 @@ Resposta:
 
 ## 🧪 Testando a API
 
-Você pode utilizar o Postman ou Insomnia para testar os endpoints:
+Você pode utilizar o **Postman** ou Insomnia para testar os endpoints:
 
 POST → Criar mensagens
 
