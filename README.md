@@ -33,13 +33,14 @@ src/main/java/com/exemplo/crudmensagens/
 
 ## ⚙️ Como Rodar o Projeto
 
-1. **Clonar o repositório**
+1. **Clonar o repositório:**
    ```bash
    git clone https://github.com/CoimbraDouglas/AppWebCRUD_Mensagens.git
    cd AppWebCRUD_Mensagens
    ```
 
-Rodar o projeto
+Rodar o projeto:
+
 ```
 ./mvnw spring-boot:run
 ```
@@ -55,7 +56,7 @@ http://localhost:8080/mensagens
 
 ### ➕ Criar uma nova mensagem
 
-POST /mensagens
+- POST /mensagens
 
 Exemplo de JSON:
 ```
@@ -74,7 +75,7 @@ Resposta:
 
 ### 📋 Listar todas as mensagens
 
-GET /mensagens
+- GET /mensagens
 
 Resposta:
 ```
@@ -92,7 +93,7 @@ Resposta:
 
 ### 🔍 Buscar mensagem por ID
 
-GET /mensagens/{id}
+- GET /mensagens/{id}
 
 Exemplo:
 ```
@@ -108,9 +109,9 @@ Resposta:
 ```
 
 ### ✏️ Atualizar mensagem existente
-```
-PUT /mensagens/{id}
-```
+
+- PUT /mensagens/{id}
+
 Exemplo de JSON:
 ```
 {
@@ -128,7 +129,7 @@ Resposta:
 
 ### ❌ Remover mensagem
 
-DELETE /mensagens/{id}
+- DELETE /mensagens/{id}
 
 Exemplo:
 ```
